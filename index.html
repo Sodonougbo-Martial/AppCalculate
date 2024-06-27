@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">    
+    <link id="theme-stylesheet" rel="stylesheet" href="style.css">
+    <link id="theme-stylesheet2" rel="stylesheet" href="style2.css">
+    <link id="theme-stylesheet3" rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    <div class="tongle">
+        <div class="calc">
+            <p>calc</p>
+        </div>
+
+        <div class="theme">
+            <div>
+                <p>Theme</p>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="checkbox-item">
+                    <label for="1">1</label>
+                    <input type="checkbox" id="1" name="language" value="style.css" checked>
+                </div>
+                <div class="checkbox-item">
+                    <label for="2">2</label>
+                    <input type="checkbox" id="2" name="language" value="style2.css">
+                </div>
+                <div class="checkbox-item">
+                    <label for="3">3</label>
+                    <input type="checkbox" id="3" name="language" value="style3.css">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    
+      
+
+    <div class="calc-text">
+        <p name="user-input" id="user-input">0</p>
+    </div>
+
+
+    <div class="container">
+        
+
+        <div class="calc-keys">
+            <button type="button" class="numbers">7</button>
+            <button type="button" class="numbers">8</button>
+            <button type="button" class="numbers">9</button>
+            <button type="button" class="key-others-del operations">DEL</button>
+
+            <button type="button" class="numbers">4</button>
+            <button type="button" class="numbers">5</button>
+            <button type="button" class="numbers">6</button>
+            <button type="button" class="key-operate operations">+</button>
+
+            <button type="button" class="numbers">1</button>
+            <button type="button" class="numbers">2</button>
+            <button type="button" class="numbers">3</button>
+            <button type="button" class="key-operate operations">-</button>
+
+            <button type="button" class="numbers">.</button>
+            <button type="button" class="numbers">0</button>
+            <button type="button" class="key-operate operations">/</button>
+            <button type="button" class="key-operate operations">*</button>
+
+            
+        </div>
+
+        <div class="container1">
+            <div class="reset">
+                <button type="button" class="key-operate-reset operations">RESET</button>
+            </div>          
+            <div class="egal">
+                <button type="button" class="key-operate-egal operations">=</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+        <script src="script.js"></script>
+</body>
+</html>
