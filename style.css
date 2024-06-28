@@ -239,9 +239,13 @@ label {
     
   }
 
-  
- 
   @media screen and (max-width: 375px) {
+
+    main{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
 
     .tongle,
     .calc-text,
@@ -256,8 +260,8 @@ label {
   
     button {
       font-size: 20px;
-      height: 35px;
-      width: 55px;
+      height: 55px;
+      width: 75px;
     }
   
     .checkbox-container {
@@ -278,6 +282,34 @@ label {
 
 
   }
+
+  @media screen and (max-width: 480px) {
+    main{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .tongle,
+    .calc-text,
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
   
+    .calc-text p {
+      font-size: 25px;
+    }
+  
+    button {
+      font-size: 25px;
+      height: 40px;
+      width: 60px;
+    }
+  
+    .checkbox-container {
+      gap: 3px;
+    }
+  }
 
-
+  
