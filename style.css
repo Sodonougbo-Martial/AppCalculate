@@ -16,9 +16,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
 
     
+  }
+
+  .data-theme{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
   }
 
 
@@ -136,7 +141,7 @@ label {
     font-size: 37px;
     text-align: end;
     background: transparent;
-    color: hsl(221, 14%, 31%);
+    color: white;
     border: none;
     outline: none;
     word-wrap: break-word;
@@ -283,33 +288,5 @@ label {
 
   }
 
-  @media screen and (max-width: 480px) {
-    main{
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    
-    .tongle,
-    .calc-text,
-    .container {
-      width: 100%;
-      padding: 10px;
-    }
-  
-    .calc-text p {
-      font-size: 25px;
-    }
-  
-    button {
-      font-size: 25px;
-      height: 40px;
-      width: 60px;
-    }
-  
-    .checkbox-container {
-      gap: 3px;
-    }
-  }
 
   
